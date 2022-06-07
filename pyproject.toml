@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "Verify IP"
+version = "0.1.0"
+description = "Checks the IP and send notification."
+authors = ["J. Jefferson N. do Vale"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
