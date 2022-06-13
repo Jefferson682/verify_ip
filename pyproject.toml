@@ -7,9 +7,13 @@ authors = ["J. Jefferson N. do Vale"]
 [tool.poetry.dependencies]
 python = "^3.10"
 requests = "^2.27.1"
+Flask = "^2.1.2"
+dynaconf = "^3.1.9"
+Flask-SQLAlchemy = "^2.5.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.3.0"
+pytest = "^7.1.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
