@@ -1,0 +1,15 @@
+[default]
+DEBUG = false
+EXTENSIONS = [
+    "delivery.ext.db:init_app",
+]
+
+[development]
+DEBUG = true
+SQLALCHEMY_TRACK_MODIFICATIONS = false
+EXTENSIONS = [
+    "delivery.ext.db:init_app",
+]
+
+[production]
+SQLALCHEMY_TRACK_MODIFICATIONS = false
