@@ -1,15 +1,14 @@
 [default]
 DEBUG = false
 EXTENSIONS = [
-    "delivery.ext.db:init_app",
+    "verify_ip.ext.db:init_app",
+    "verify_ip.ext.migrate:init_app",
+    "verify_ip.ext.routes:init_app"
 ]
 
 [development]
 DEBUG = true
 SQLALCHEMY_TRACK_MODIFICATIONS = false
-EXTENSIONS = [
-    "delivery.ext.db:init_app",
-]
 
 [production]
 SQLALCHEMY_TRACK_MODIFICATIONS = false
